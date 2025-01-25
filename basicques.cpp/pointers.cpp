@@ -13,13 +13,22 @@ int main(){
     // swap(&num1,&num2);
     // cout << "The number 1 is = " << num1 << endl;
     // cout << "The number 2 is = " << num2;
-    int x,y;
-    int* ptr1 = &x;
-    int* ptr2 = &y;
-    cin >> *ptr1 ;
-    cin >> *ptr2 ;
-    int* ptr3 = nullptr;
-    cout <<  *ptr1 + *ptr2 <<endl;
-    cout << *ptr3;
+    // int x,y;
+    // int* ptr1 = &x;
+    // int* ptr2 = &y;
+    // cin >> *ptr1 ;
+    // cin >> *ptr2 ;
+    // int* ptr3 = nullptr;
+    // cout <<  *ptr1 + *ptr2 <<endl;
+    // cout << *ptr3;
+
+    int* ptr1 = nullptr;
+    cout << ptr1 << endl;
+
+    int *ptr = NULL;
+    cout << ptr <<endl;
+
+    char ch = '\0';
+    cout << (int)ch;
     return 0;
 }
