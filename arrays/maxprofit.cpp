@@ -5,7 +5,7 @@ int main(){
     int arr[7] = {7,2,3,4,5,6,1};
     int min = arr[0];
     int index = 0;
-    for(int i=0;i<7;i++){
+    for(int i=0;i<7;i++){//min hai ye
         if(arr[i]<min){
             min = arr[i];
             index = i;
