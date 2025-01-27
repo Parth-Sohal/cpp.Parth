@@ -1,2 +1,3 @@
-  // arr.push_back(5);
-    // cout << arr[0];
+for(int i= 0 ;i<result.size();i++){
+        cout << result[i] << " ";
+    }
