@@ -9,8 +9,8 @@ int main(){
     for(int i = 0 ; i < arr.size() ; i++){
         for(int j = i+1 ;j < arr.size() ;j++){
             if(arr[i] + arr[j] == sum){
-                target.push_back(arr[i]);
-                target.push_back(arr[j]);
+                // target.push_back({i,j});
+                // target.push_back(arr[j]);
                 break;
             }
         }
