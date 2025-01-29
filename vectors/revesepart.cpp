@@ -5,7 +5,7 @@ using namespace std;
 #include <bits/stdc++.h>
 int main()
 {
-    vector<int> nums{1,2,3,4,5,6,7};
+    vector<int> nums{1,2,3,4,5};
     int k = 3;
     reverse(nums.begin(),nums.end());
     reverse(nums.begin(),nums.begin()+k);
