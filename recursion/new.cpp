@@ -36,21 +36,27 @@ using namespace std;
 //     // naya(arr,i+1,n);
 // }
 
-
-
 // {
 //     if(n == 0){
 //         return 0;
 //     }
 //     return n%10 + sumOfdigit(n/10);
 // }*
+// int fibbo(int n)
+// {
+//     cout << "current value of n = > " << n << endl; ; 
+//     if (n < 2)
+//     {
+//         cout << n << endl;
+//         return n;
+//     }
+//     int result = fibbo(n - 1) + fibbo(n - 2);
+//     cout << result << endl;
+//     return result;
+// }
 
-
-
-
-
-
-int main(){
+int main()
+{
     // int arr[] = {2,4,6,8,10};
     // int n = sizeof(arr)/sizeof(arr[0]);
     // // cout << n ;
@@ -58,7 +64,6 @@ int main(){
     // naya(arr,0,n-1);
     // printing(num);
     // return;
-    // cout << sumOfdigit(15);
-
+    // cout << sumOfdigit(15); 
 
 }
