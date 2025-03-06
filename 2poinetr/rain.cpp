@@ -6,7 +6,7 @@
 #include <vector>
 using namespace std;
 int main(){
-    vector<int> height = {4,2,3};
+    vector<int> height = {0,1,0,2,1,0,1,3,2,1,2,1};
     int total = 0 ;
     int i = 0 ;
     while(i < height.size()){
