@@ -39,25 +39,26 @@ int main()
     //         cout << j << " ";
     //     }
     // }
-    vector<int> nums = {1,5,1,4,2};
+    // vector<int> nums = {1,5,1,4,2};
 
-    int i = 0 ; 
-    int j = 0;
-    while(j < nums.size()){
-        int element = nums[j];
-        if(element % 2 == 0){
-            nums[j] = 0;
-            swap(nums[i],nums[j]);
-            i++;
-            j++;
-        }
-        else{
-            nums[j] = 1;
-            j++;
-        }
-    }
-    for(auto i : nums){
-        cout << i << " ";
-    }
+    // int i = 0 ; 
+    // int j = 0;
+    // while(j < nums.size()){
+    //     int element = nums[j];
+    //     if(element % 2 == 0){
+    //         nums[j] = 0;
+    //         swap(nums[i],nums[j]);
+    //         i++;
+    //         j++;
+    //     }
+    //     else{
+    //         nums[j] = 1;
+    //         j++;
+    //     }
+    // }
+    // for(auto i : nums){
+    //     cout << i << " ";
+    // }
     
+    cout << -2%2;
 }
