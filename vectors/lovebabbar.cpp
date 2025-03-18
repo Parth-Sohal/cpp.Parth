@@ -7,21 +7,18 @@
 using namespace std;
 
 int main(){
-    vector<int> nums = {1,2,-3,4,-5,6};
+    vector<int> nums = {0,1,0,1,1,0};
 
-    int store = 0;
-    int iterate = 0;
+    int i = 0 ; 
+    int j = 0;
 
-    while(iterate<nums.size()){
-        if(nums[iterate]<0){
-            swap(nums[store],nums[iterate]);
-            store++;
+    while(j<nums.size()){
+        if(nums[j] == 0){
+            swap(nums[i],nums[j]);
+            i++;
         }
-
-        iterate++;
+        j++;
     }
-
-    
 
     for(auto i : nums){
         cout << i << " ";
