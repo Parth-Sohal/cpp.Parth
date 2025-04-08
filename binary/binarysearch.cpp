@@ -3,8 +3,18 @@
 #include <limits.h>
 #include <cmath>
 #include <bits/stdc++.h>
+
 #include <vector>
 using namespace std;
+
+void kthSmallest(vector<int> arr,int k){
+    sort(arr.begin(),arr.end());
+    if(k>arr.size()){
+        cout << " no smallest element" << " " ;
+    }
+    cout << arr[k-1];
+
+}
 
 int BinarySearch(int arr[] , int n , int target)
 {
@@ -32,16 +42,11 @@ int BinarySearch(int arr[] , int n , int target)
 }
 int main()
 {
-    vector<int> arr = {3,5,8,15,15,19};
-    int target;
+    vector<int> arr = {3,1,2,5,4};
+    kthSmallest(arr,3);
+    // int target;
 
-    cout << "Enter target Value = " ;
-    cin >> target ; 
-
-    // int result = BinarySearch(arr , n , target);
-
-    int result = binary_search(arr.begin() , arr.end() , target);
-
-    cout << "Answer = " << result; 
+   
+    // cout << "Answer = " << result; 
     return 0;
 }
